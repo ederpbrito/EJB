@@ -12,5 +12,4 @@ public class Registro {
 		Naming.rebind("farmacia/carrinho", new CarrinhoBean());
 		System.out.println("Carrinho registrado...");
 	}
-
 }

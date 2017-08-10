@@ -7,7 +7,12 @@ import java.util.List;
 
 public class CarrinhoBean extends UnicastRemoteObject implements Carrinho {
 	
-	private List<Item> itens = new ArrayList();
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	
+	private List<Item> itens = new ArrayList<Item>();
 
 	protected CarrinhoBean() throws RemoteException {
 		super();
